@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2060 399">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e30613;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #d51317;
+      }
+
+      .cls-3 {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1" data-name="レイヤー 1">
+    <g>
+      <rect class="cls-2" y="104" width="2060" height="32"/>
+      <rect class="cls-2" y="188" width="2060" height="32"/>
+      <g>
+        <g>
+          <rect class="cls-1" x="81.9" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="142.23" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="202.55" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="262.87" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="323.2" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="383.52" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="443.84" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="504.17" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="564.49" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="624.81" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="685.14" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="745.46" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="805.79" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="866.11" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="926.43" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="986.76" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1047.08" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1107.4" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1167.73" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="1228.05" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1288.38" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="1348.7" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1409.02" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1469.34" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1529.67" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1589.99" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1650.32" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="1710.64" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1770.96" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1831.29" y="12" width="26.16" height="348"/>
+          <rect class="cls-1" x="1891.61" y="12" width="26.17" height="348"/>
+          <rect class="cls-1" x="1951.93" y="12" width="26.17" height="348"/>
+        </g>
+        <g>
+          <rect class="cls-1" y="337" width="2060" height="62"/>
+          <rect class="cls-3" width="2060" height="32"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
