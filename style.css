@@ -1,45 +1,63 @@
-* {
-  margin: 0;
-  padding: 0;
+/*--------------RESET-------------*/
+a{
   text-decoration: none;
+  color: inherit;
 }
-body {
-  width: 100%;
-  height: 100%;
+ul, ol {
+  list-style: none;
+}
+em {
+  font-style: italic;
+}
+*{
+  margin:0;
+  padding: 0;
 }
 
+
+/*--------------STYLE GENERAL-------------*/
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  position: absolute;
+}
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+
+/*--------------START HEADER-------------*/
 header {
   position: sticky;
   z-index: 1000;
-
 }
+
+/* LOGO */
 .logo {
   width: 45%;
-  padding: 10px;
+  padding: 15px;
 }
-/* START COLOR CHANGE NAVBAR */
+
+/* NAVBAR */
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
 }
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
 .navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");   
 }
 .navbar .navbar-toggler {
   border: none;
 }
+.navbar-toggler{
+  position: relative;
+  left: 90px;
+}
 .navbar-toggler-icon {
   padding: 20px;
 }
-
 .offcanvas-header .btn-close {
   font-size: 25px;
   opacity: 1;
@@ -48,12 +66,8 @@ header {
 #offcanvasNavbar {
   height: 300px;
 }
-/* START FONT CHANGE */
-#kabuquoi, #scènetradi, #events, #contact {
-  font-family: 'Lato' sans-serif;
-  font-weight: bold;
-}
-/*Barre Décorative*/
+
+/* HOME DECORATION BAR */
 .barreDéco1 {
   position: relative;
   top: 18px;
@@ -65,8 +79,278 @@ header {
   left: 130px;
 }
 
-/*Carrousel*/
-.slogan {
+
+/*--------------START COVER-------------*/
+.cover {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.divCarousel {
+  z-index: -5;
+  height: 100%;
+  padding: 0;
+  .carousel-inner{
+    height: 195px;
+    .carousel-item{
+      height: 100%;
+    }
+  }
+  .carousel-item {
+    height: 100%;
+  }
+}
+.barreDéco3 {
   position: absolute;
-  top: 104px;
+  top: 185px;
+}
+.barreDéco4 {
+  position: absolute;
+  top: 195px;
+  right: 0px;
+}
+.slogan-text {
+  position: relative;
+  bottom: 55px;
+
+}
+.slogan-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 28px;
+  width: 241px;
+  height: 53px;
+  background-color: rgba(0, 0, 0, 0.75);
+  filter: blur(3px);
+}
+.slogan-text p {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 0.55rem;
+  margin-top: 12px;
+}
+.association-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 12px;
+  position: relative;
+  bottom: 30px;
+}
+
+
+/*--------------START KABUQUOI-------------*/
+#kabuquoi {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px 0 12px;
+}
+.kabuki-text h3 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+.kabuki-text p {
+  font-size: 1.1rem ;
+  font-weight: lighter;
+  padding-top: 1rem;
+}
+.kabuki-text img {
+  transform: scaleX(-1);
+}
+
+
+/*--------------START SceneTraditionelle-------------*/
+#scenetradi {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+#scenetradi h3 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.theatre1, .theatre2  {
+  width: 100%;
+  height: 245px;
+}
+.scene1 img {
+  width: 100%;
+  margin-top: 15px;
+}
+.scene2 img {
+  width: 100%;
+  margin-top: 15px;
+}
+.separation {
+  display: flex;
+  justify-content: center;
+}
+.rectangle {
+  background-color: red;
+  width: 180px;
+  height: 5px;
+  margin: 20px;
+}
+/*Les cercles pour liens scene1*/
+.cercle1 {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  bottom: 116px;
+  left: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.cercle2 {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  bottom: 72px;
+  left: 103px;
+  text-align: center;
+  cursor: pointer;
+}
+.cercle3 {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  bottom: 114px;
+  left: 198px;
+  text-align: center;
+  cursor: pointer;
+}
+/*les cercles pour liens scene2*/
+.cercle4 {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  bottom: 105px;
+  left: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+.cercle5 {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  bottom: 103px;
+  left: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+.cercle6 {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  bottom: 195px;
+  left: 225px;
+  text-align: center;
+  cursor: pointer;
+}
+.cercle7 {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  bottom: 157px;
+  left: 244px;
+  text-align: center;
+  cursor: pointer;
+}
+/*les lien des cercles*/
+.scene1 h4 {
+  text-transform: uppercase;
+  color: white;
+}
+.scene2 h4 {
+  text-transform: uppercase;
+  color: white;
+}
+.cercle {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.scene-text {
+  color: white;
+  font-weight: lighter;
+}
+
+
+/*--------------START Contact-------------*/
+#contact {
+  position: relative;
+  width: 100%;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.sendingForm{
+  text-align: center;
+}
+.sendingForm h3{
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/*--------------START Footer-------------*/
+.logoF {
+  position: relative;
+  left: 165px;
+  width: 123px;
+  top: 248px;
+}
+
+
+
+
+
+.courtisane {
+  position: relative;
+  bottom: -51px;
+  width: 160px;
+  transform: scaleX(-1);
+}
+.rectangleF {
+  background-color: red;
+  width: 100%;
+  height: 50px;
 }
