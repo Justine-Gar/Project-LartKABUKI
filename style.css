@@ -313,7 +313,6 @@ header {
 #contact {
   position: relative;
   width: 100%;
-  top: 70px;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
