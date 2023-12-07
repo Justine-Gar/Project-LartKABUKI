@@ -71,16 +71,22 @@ header {
 }
 
 /* HOME DECORATION BAR */
-.barreDéco1 {
+.rectangleH1 {
   position: relative;
+  background-color: red;
+  width: 200px;
+  height: 10px;
   top: 18px;
-  left: 0;
 }
-.barreDéco2 {
+.rectangleH2 {
   position: relative;
+  background-color: black;
+  width: 200px;
+  height: 10px;
   top: 18px;
-  left: 130px;
+  left: 121px;
 }
+
 
 
 /*--------------START COVER-------------*/
@@ -105,12 +111,18 @@ header {
     height: 100%;
   }
 }
-.barreDéco3 {
+.rectangleC1 {
   position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 10px;
   top: 185px;
 }
-.barreDéco4 {
+.rectangleC2 {
   position: absolute;
+  background-color: black;
+  width: 200px;
+  height: 10px;
   top: 195px;
   right: 0px;
 }
@@ -123,9 +135,9 @@ header {
   content: '';
   position: absolute;
   top: 0;
-  left: 28px;
-  width: 241px;
-  height: 53px;
+  left: 12px;
+  width: 295px;
+  height: 42px;
   background-color: rgba(0, 0, 0, 0.75);
   filter: blur(3px);
 }
@@ -134,7 +146,7 @@ header {
   z-index: 1;
   color: white;
   text-align: center;
-  font-size: 0.55rem;
+  font-size: 0.7rem;
   margin-top: 12px;
 }
 .association-text {
@@ -157,22 +169,19 @@ header {
   padding: 12px 12px 0 12px;
   scroll-margin-top: 130px;
 }
-.kabuki-text h3 {
+#kabuquoi h3 {
   text-transform: uppercase;
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-
 }
 .kabuki-text p {
   font-size: 1.1rem ;
   font-weight: lighter;
   padding-top: 1rem;
 }
-.kabuki-text img {
-  transform: scaleX(-1);
-}
+
 
 
 /*--------------START SceneTraditionelle-------------*/
@@ -195,19 +204,21 @@ header {
 }
 .theatre1, .theatre2  {
   width: 100%;
-  height: 245px;
+  height: 210px;
 }
 .scene1 img {
   width: 100%;
-  margin-top: 15px;
 }
 .scene2 img {
   width: 100%;
-  margin-top: 15px;
 }
 .separation {
+  position: relative;
+  width: 250px;
+  left: 15px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .rectangle {
   background-color: red;
@@ -225,7 +236,6 @@ header {
   bottom: 116px;
   left: 20px;
   text-align: center;
-  cursor: pointer;
 }
 .cercle2 {
   position: relative;
@@ -234,9 +244,8 @@ header {
   width: 30px;
   height: 30px;
   bottom: 72px;
-  left: 103px;
+  left: 93px;
   text-align: center;
-  cursor: pointer;
 }
 .cercle3 {
   position: relative;
@@ -245,9 +254,8 @@ header {
   width: 30px;
   height: 30px;
   bottom: 114px;
-  left: 198px;
+  left: 176px;
   text-align: center;
-  cursor: pointer;
 }
 /*les cercles pour liens scene2*/
 .cercle4 {
@@ -259,7 +267,6 @@ header {
   bottom: 105px;
   left: 35px;
   text-align: center;
-  cursor: pointer;
 }
 .cercle5 {
   position: relative;
@@ -267,10 +274,9 @@ header {
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  bottom: 103px;
-  left: 120px;
+  bottom: 110px;
+  left: 130px;
   text-align: center;
-  cursor: pointer;
 }
 .cercle6 {
   position: relative;
@@ -281,7 +287,6 @@ header {
   bottom: 195px;
   left: 225px;
   text-align: center;
-  cursor: pointer;
 }
 .cercle7 {
   position: relative;
@@ -292,7 +297,6 @@ header {
   bottom: 157px;
   left: 244px;
   text-align: center;
-  cursor: pointer;
 }
 /*les lien des cercles*/
 .scene1 h4 {
@@ -316,12 +320,12 @@ header {
 }
 
 
-/*--------------START Contact-------------*/
+/*--------------START Footer-------------*/
 #contact {
-  position: relative;
+  position: absolute;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   padding-top: 25px;
   scroll-margin-top: 115px;
 }
@@ -335,9 +339,6 @@ header {
   font-weight: bold;
   text-align: center;
 }
-
-
-/*--------------START Footer-------------*/
 .logoF {
   position: absolute;
   width: 125px;
@@ -360,6 +361,7 @@ header {
 .courtisane {
   position: relative;
   z-index: 2;
+  top: 2px;
 }
 .courtisane img{
   width: 160px;
@@ -374,6 +376,7 @@ header {
 }
 .rectangleF {
   position: relative;
+  z-index: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,4 +398,8 @@ header {
   color: white;
   font-size: 0.55rem;
   margin-bottom: 0;
+}
+.footerF  {
+  position: relative;
+  top: 983px;
 }
