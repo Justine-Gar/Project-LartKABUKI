@@ -14,7 +14,6 @@ em {
   padding: 0;
 }
 
-
 /*--------------STYLE GENERAL-------------*/
 
 body {
@@ -315,8 +314,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
-  padding-bottom: 12px;
+  padding-top: 25px;
 }
 .sendingForm{
   text-align: center;
@@ -332,24 +330,60 @@ header {
 
 /*--------------START Footer-------------*/
 .logoF {
-  position: relative;
-  left: 165px;
-  width: 123px;
-  top: 248px;
+  position: absolute;
+  width: 125px;
+  left: 170px;
+  bottom: 200px;
 }
-
-
-
-
-
+.reseaux {
+  position: relative;
+  width: 115px;
+  left: 150px;
+  top: 172px;
+}
+.reseaux img {
+  width: 25px;
+  margin: 5px;
+}
+.reseaux p{
+  margin-bottom: 0;
+}
 .courtisane {
   position: relative;
-  bottom: -51px;
+  z-index: 2;
+}
+.courtisane img{
   width: 160px;
   transform: scaleX(-1);
 }
+.barriere {
+  position: absolute;
+  bottom: 45px;
+}
+.barriere img {
+  width: 295px;
+}
 .rectangleF {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: red;
   width: 100%;
   height: 50px;
+}
+.rectangleF img {
+  width: 10px;
+}
+.rectangleF p {
+  position: relative;
+  color: white;
+  font-size: 0.55rem;
+  margin-bottom: 0;
+}
+.rectangleF a {
+  position: relative;
+  color: white;
+  font-size: 0.55rem;
+  margin-bottom: 0;
 }
