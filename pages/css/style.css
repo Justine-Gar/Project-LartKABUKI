@@ -181,7 +181,9 @@ header {
   font-weight: lighter;
   padding-top: 1rem;
 }
-
+.kabuki-text img {
+  transform: scaleX(-1);
+}
 
 
 /*--------------START SceneTraditionelle-------------*/

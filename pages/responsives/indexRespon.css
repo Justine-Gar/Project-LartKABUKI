@@ -166,6 +166,9 @@
     font-size: 0.9rem;
   }
   
+  /*--------------START kabuquoi-------------*/
+  
+
   /*--------------START SceneTraditionelle-------------*/
   .cercle1 {
     bottom: 125px;
@@ -309,7 +312,7 @@
     padding-top: 1rem;
   }
   .kabuki-text img {
-    width: 300px;
+    width: 360px;
     transform: scaleX(-1);
   }
 
