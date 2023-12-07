@@ -4,29 +4,168 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Théâtre Kabuki</title>
+    <title>Evènements</title>
+    <link rel="stylesheet" href="/pages/evenement.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
   </head>
 
   <body>
     
+    <header class="container-fluid">
+      <div class="row">
+        <nav class="navbar bg-light">
+          <div class="col-12">
+            <img class="logo" src="/assets/Logo.svg" alt="logo association">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <img class="offcanvas-title logo" id="offcanvasNavbarLabel" src="/assets/Logo.svg" alt="logo association">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/index.html#kabuquoi">Kabu-quoi ?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/index.html#scenetradi">Scène Traditionelle</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#events">Evènements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/index.html#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <img class="barreDéco1" src="/assets/svg/Vectorbar-1.svg" alt="">
+          <img class="barreDéco2" src="/assets/svg/Vectorbar.svg" alt="">
+        </nav>
+      </div>
+    </header>
 
 
+    <main>
+      <section class="avenir container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>Les évènements à venir de l'association</h2>
+          </div>
+          <div class="card col-sm-12">
+            <img src="/assets/images/evenement/AdobeStock_116717965.jpeg" class="card-img-top" alt="Cours de Kabuki">
+            <div class="card-body">
+              <h5 class="card-title">Série de Cours Débutant de Kabuki</h5>
+              <p class="card-text">Des sessions éducatives pasionnantes visant à initier les amateurs désirant
+                apprendre l'art du Kabuki, dispensée par des expert renommés.
+              </p>
+              <ul><p>Session :</p>
+                <li>13 Décembre 2023 - 19h30</li>
+                <li>20 Décembre 2023 - 18h</li>
+                <li>27 Décembre 2023 - 21h</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-sm-12">
+            <img src="/assets/images/evenement/AdobeStock_610711706.jpg" class="card-img-top" alt="Masque de Kabuki">
+            <div class="card-body">
+              <h5 class="card-title">Atelier de Création de Masque de Noel</h5>
+              <p class="card-text">Pour les fêtes, nous vous invitons à créer vos propres masque Kabuki,
+                évoquant l'esprit de Noel! Un buffet sera à votre disposition avec des mets japonais délicieux.
+                Le tout dans une atmosphères convivial et de partage. <br />
+              </p>  
+              <p>24 Décembre 2023 - 15h30</p>
+            </div>
+          </div>
+          <div class="card col-sm-12">
+            <img src="/assets/images/evenement/AdobeStock_305242137.jpeg" class="card-img-top" alt="Cours de Kabuki">
+            <div class="card-body">
+              <h5 class="card-title">Série de Cours Avancés de Kabuki</h5>
+              <p class="card-text">Des sessions éducatives passionnantes visant à perfectionner son jeu d'acteur.
+              </p>
+              <ul><p>Session :</p>
+                <li>8 Janvier 2024 - 19h30</li>
+                <li>15 Janvier 2024 - 19h</li>
+                <li>23 Janvier 2024 - 18h 21h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="passee container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>Les évènements passés de l'association</h2>
+          </div>
+          <div class="events col-sm-12">
+              <h5 class="events-title">21 Novembre 2023</h5>
+              <div class="subtitle">
+                <h6>Concours de déguisements :</h6>
+                <p>Pour Halloween l'association vous a proposée de revetir vos costumes les plus monstrueux
+                  mélant Kabuki et horreur, un coucours a eu lieu avec 3 gagnant!</p>
+              </div>
+          </div>
+          <div class="events col-sm-12">
+            <h5 class="events-title">10 Novembre 2023</h5>
+            <div class="subtitle">
+              <h6>Spectacle en plein air au parc :</h6>
+              <p>La représentation du spectacle Kabuki en plein air a permitde faire découvrir notre association
+                et d'admirer le jeux et costume.</p>
+            </div>
+          </div>
+          <div class="events col-sm-12">
+            <h5 class="events-title">01 Octobre 2023</h5>
+            <div class="subtitle">
+              <h6>Atelier maquillage :</h6>
+              <p>Un évènements intéractifs ou les participant ont pu apprendre les techniques de maquillage
+                emblématique du Kabuki.</p>
+            </div>
+          </div>
+          <div class="events col-sm-12">
+            <h5 class="events-title">23 Septembre 2023</h5>
+            <div class="subtitle">
+              <h6>Soirée Gala Kabuki :</h6>
+              <p>Une soirée glamour ou ont été mis en avant des vedettes de Kabuki, 
+                accompagné d'un diner élégant.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
 
+    <footer class="foot container-fluid">
+      <img class="logoF" src="/assets/Logo.svg" alt="logo association">
+      <div class="reseaux">
+        <p>Suivez-nous :</p>
+        <img src="/assets/svg/facebook.svg" alt="logo facebook">
+        <img src="/assets/svg/instagram.svg" alt="logo instagram">
+        <img src="/assets/svg/twitter.svg" alt="logo twitter">
+      </div>
+      <div class="row">
+        <div class="courtisane col-sm-12">
+          <img src="/assets/svg/courtisane.svg" alt="deux femme au costumes">
+        </div>
+        <div class="barriere col-sm-12">
+          <img src="/assets/svg/barriere.svg" alt="barriere rouge">
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
+        <div class="col-sm-12">
+          <div class="rectangleF">
+            <img src="/assets/svg/copyright-regular.svg" alt="logo copyrigth">
+            <p> 2023 - L'ART KABUKI - Tous droits réservés - <a href="/pages/mention.html">Mentions Légales</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
