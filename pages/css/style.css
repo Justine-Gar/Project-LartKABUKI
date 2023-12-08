@@ -92,7 +92,7 @@ body {
 /*--------------START COVER-------------*/
 .cover {
   position: relative;
-  top: 113px;
+  top: 85px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -114,7 +114,7 @@ body {
 .rectangleC1 {
   position: absolute;
   background-color: red;
-  width: 200px;
+  width: 215px;
   height: 10px;
   top: 185px;
 }
@@ -150,11 +150,10 @@ body {
   margin-top: 12px;
 }
 .association-text {
+  position: relative;
   font-size: 1.2rem;
   font-weight: 500;
   text-align: center;
-  padding: 12px;
-  position: relative;
   bottom: 30px;
 }
 
@@ -162,12 +161,11 @@ body {
 /*--------------START KABUQUOI-------------*/
 #kabuquoi {
   position: relative;
-  top: 80px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 12px 12px 0 12px;
-  /*scroll-margin-top: 130px;*/
+  margin-top: 70px;
+  scroll-margin-top: 125px;
 }
 #kabuquoi h3 {
   text-transform: uppercase;
@@ -195,7 +193,7 @@ body {
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 12px;
-  /*scroll-margin-top: 110px;*/
+  scroll-margin-top: 80px;
 }
 #scenetradi h3 {
   text-transform: uppercase;
@@ -204,20 +202,17 @@ body {
   font-weight: bold;
   text-align: center;
 }
-.theatre1, .theatre2  {
-  width: 100%;
-  height: 210px;
-}
+
 .scene1 img {
   width: 100%;
+  margin-top: 10x;
 }
 .scene2 img {
   width: 100%;
 }
+
+/*barre rouge*/
 .separation {
-  position: relative;
-  width: 250px;
-  left: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,87 +223,9 @@ body {
   height: 5px;
   margin: 20px;
 }
-/*Les cercles pour liens scene1*/
-.cercle1 {
-  position: relative;
-  background-color: white;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  bottom: 116px;
-  left: 20px;
-  text-align: center;
-}
-.cercle2 {
-  position: relative;
-  background-color: white;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  bottom: 72px;
-  left: 93px;
-  text-align: center;
-}
-.cercle3 {
-  position: relative;
-  background-color: white;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  bottom: 114px;
-  left: 176px;
-  text-align: center;
-}
-/*les cercles pour liens scene2*/
-.cercle4 {
-  position: relative;
-  background-color: white;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  bottom: 105px;
-  left: 35px;
-  text-align: center;
-}
-.cercle5 {
-  position: relative;
-  background-color: white;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  bottom: 110px;
-  left: 130px;
-  text-align: center;
-}
-.cercle6 {
-  position: relative;
-  background-color: white;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  bottom: 195px;
-  left: 225px;
-  text-align: center;
-}
-.cercle7 {
-  position: absolute;
-  background-color: white;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  bottom: 157px;
-  left: 244px;
-  text-align: center;
-}
-/*les lien des cercles*/
-.scene1 h4 {
-  text-transform: uppercase;
-  color: white;
-}
-.scene2 h4 {
-  text-transform: uppercase;
-  color: white;
-}
+
+
+/*texte*/
 .cercle {
   background-color: white;
   border-radius: 50%;
@@ -316,10 +233,15 @@ body {
   height: 30px;
   text-align: center;
 }
+.scene-title {
+  text-transform: uppercase;
+  color: white;
+}
 .scene-text {
   color: white;
   font-weight: lighter;
 }
+
 
 
 /*--------------START contact-------------*/
@@ -329,7 +251,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 25px;
-  /*scroll-margin-top: 115px;*/
+  scroll-margin-top: 80px;
 }
 #contact h3 {
   text-transform: uppercase;
@@ -338,13 +260,11 @@ body {
   font-weight: bold;
   text-align: center;
 }
-
 .sendingForm {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .logoF {
   position: absolute;
   width: 40%;
