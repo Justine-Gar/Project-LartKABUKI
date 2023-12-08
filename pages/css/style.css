@@ -322,72 +322,49 @@ body {
 }
 
 
-/*--------------START Footer-------------*/
+/*--------------START contact-------------*/
 #contact {
-  position: absolute;
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 25px;
+
   /*scroll-margin-top: 115px;*/
 }
-.sendingForm{
-  text-align: center;
-}
-.sendingForm h3{
+#contact h3 {
   text-transform: uppercase;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
 }
 .logoF {
-  position: absolute;
-  width: 125px;
-  left: 170px;
-  bottom: 200px;
+  width: 15%;
 }
-.reseaux {
-  position: relative;
-  width: 115px;
-  left: 150px;
-  top: 172px;
-}
-.reseaux img {
-  width: 25px;
-  margin: 5px;
-}
-.reseaux p{
-  margin-bottom: 0;
-}
+
 .courtisane {
   position: relative;
   z-index: 2;
   top: 2px;
 }
 .courtisane img{
-  width: 160px;
+  width:50%;
   transform: scaleX(-1);
 }
-.barriere {
-  position: absolute;
-  bottom: 45px;
-}
-.barriere img {
-  width: 295px;
+
+
+
+/*-------------Start footer--------------*/
+.footerF  {
+  position: relative;
 }
 .rectangleF {
-  position: relative;
-  z-index: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: red;
-  width: 100%;
   height: 50px;
 }
 .rectangleF img {
-  width: 10px;
+  width: 15px;
 }
 .rectangleF p {
   position: relative;
@@ -400,8 +377,4 @@ body {
   color: white;
   font-size: 0.55rem;
   margin-bottom: 0;
-}
-.footerF  {
-  position: relative;
-  top: 983px;
 }
