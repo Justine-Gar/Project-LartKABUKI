@@ -28,18 +28,10 @@ body {
 
 
 /*--------------START HEADER-------------*/
-header {
-  position: fixed;
-  z-index: 1000;
-}
-
-/* LOGO */
 .logo {
-  width: 45%;
+  width: 40%;
   padding: 15px;
 }
-
-/* NAVBAR */
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
@@ -49,10 +41,7 @@ header {
 }
 .navbar .navbar-toggler {
   border: none;
-}
-.navbar-toggler{
-  position: relative;
-  left: 90px;
+  padding-bottom: 15px;
 }
 .navbar-toggler-icon {
   padding: 20px;
@@ -62,25 +51,37 @@ header {
   opacity: 1;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");;
 }
-#offcanvasNavbar {
-  height: 300px;
-}
 .navbar-nav .nav-item a:hover {
   color: red;
   text-decoration: underline;
 }
+.rectanglegrp {
+  position: relative;
+}
+.ligneR {
+  position: relative;
+  background-color: white;
+  top: -5px;
+}
+.rectangleH1 {
+  position: relative;
+  background-color: red;
+  width: 215px;
+  height: 10px;
 
-/* HOME DECORATION BAR */
-.barreDéco1 {
-  position: relative;
-  top: 18px;
-  left: 0;
 }
-.barreDéco2 {
+.ligneD {
   position: relative;
-  top: 18px;
-  left: 130px;
 }
+.rectangleH2 {
+  position: absolute;
+  background-color: black;
+  width: 215px;
+  height: 10px;
+  top: -5px;
+  right: 0px;
+}
+
 
 
 

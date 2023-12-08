@@ -28,18 +28,12 @@ body {
 
 
 /*--------------START HEADER-------------*/
-header {
-  position: fixed;
-  z-index: 1000;
-}
 
 /* LOGO */
 .logo {
-  width: 45%;
+  width: 40%;
   padding: 15px;
 }
-
-/* NAVBAR */
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
@@ -49,10 +43,7 @@ header {
 }
 .navbar .navbar-toggler {
   border: none;
-}
-.navbar-toggler{
-  position: relative;
-  left: 90px;
+
 }
 .navbar-toggler-icon {
   padding: 20px;
@@ -62,29 +53,35 @@ header {
   opacity: 1;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");;
 }
-#offcanvasNavbar {
-  height: 300px;
-}
 .navbar-nav .nav-item a:hover {
   color: red;
   text-decoration: underline;
 }
-
-/* HOME DECORATION BAR */
+.rectanglegrp {
+  position: relative;
+}
+.ligneR {
+  position: relative;
+  background-color: white;
+  top: -5px;
+}
 .rectangleH1 {
   position: relative;
   background-color: red;
-  width: 200px;
+  width: 215px;
   height: 10px;
-  top: 18px;
+
+}
+.ligneD {
+  position: relative;
 }
 .rectangleH2 {
-  position: relative;
+  position: absolute;
   background-color: black;
-  width: 200px;
+  width: 215px;
   height: 10px;
-  top: 18px;
-  left: 121px;
+  top: -5px;
+  right: 0px;
 }
 
 
@@ -167,7 +164,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 12px 12px 0 12px;
-  scroll-margin-top: 130px;
+  /*scroll-margin-top: 130px;*/
 }
 #kabuquoi h3 {
   text-transform: uppercase;
@@ -195,7 +192,7 @@ header {
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 12px;
-  scroll-margin-top: 110px;
+  /*scroll-margin-top: 110px;*/
 }
 #scenetradi h3 {
   text-transform: uppercase;
@@ -329,7 +326,7 @@ header {
   display: flex;
   justify-content: center;
   padding-top: 25px;
-  scroll-margin-top: 115px;
+  /*scroll-margin-top: 115px;*/
 }
 .sendingForm{
   text-align: center;
