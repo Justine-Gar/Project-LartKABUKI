@@ -29,7 +29,7 @@ body {
 
 /*--------------START HEADER-------------*/
 .logo {
-  width: 40%;
+  width: 10em;
   padding: 15px;
 }
 .bg-light {
@@ -66,7 +66,7 @@ body {
 .rectangleH1 {
   position: relative;
   background-color: red;
-  width: 215px;
+  width: 65%;
   height: 10px;
 
 }
@@ -76,7 +76,7 @@ body {
 .rectangleH2 {
   position: absolute;
   background-color: black;
-  width: 215px;
+  width: 65%;
   height: 10px;
   top: -5px;
   right: 0px;
@@ -93,6 +93,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 .avenir h2 {
   text-transform: uppercase;
@@ -131,13 +132,16 @@ body {
   text-align: center;
   padding: 15px;
 }
+.events {
+  padding-right: 5px;
+}
 .events-title {
   color: white;
   font-size: 1rem;
   font-weight:bold;
 }
 .subtitle {
-  padding-left: 10px;
+  padding-left: 50px;
 }
 .subtitle h6 {
   color: white;
@@ -159,30 +163,32 @@ body {
 }
 
 .logoF {
-  position: absolute;
-  width: 40%;
+  width: 30em;
   right: 0;
   bottom: 130px;
   margin: 5%;
 }
 .reseaux {
-  position: absolute;
   width: 40%;
   right: 0;
   bottom: 35px;
   margin: 5%;
 }
 .reseaux img {
-  width: 20%;
+  width: 5em;
   margin: 5px;
 }
-.courtisane {
-  position: relative;
+.reseaux p {
+  font-size: 1.1rem ;
+  font-weight: bold;
+  padding-top: 1rem;
 }
-.courtisane img{
-  width: 55%;
+
+.courtisane {
+  width: 25em;
   transform: scaleX(-1);
 }
+
 
 .footerF  {
   position: relative;

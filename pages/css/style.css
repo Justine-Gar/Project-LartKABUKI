@@ -71,7 +71,7 @@ body {
 .rectangleH1 {
   position: relative;
   background-color: red;
-  width: 215px;
+  width: 65%;
   height: 10px;
 
 }
@@ -81,7 +81,7 @@ body {
 .rectangleH2 {
   position: absolute;
   background-color: black;
-  width: 215px;
+  width: 65%;
   height: 10px;
   top: -5px;
   right: 0px;
@@ -114,14 +114,14 @@ body {
 .rectangleC1 {
   position: absolute;
   background-color: red;
-  width: 215px;
+  width: 65%;
   height: 10px;
   top: 185px;
 }
 .rectangleC2 {
   position: absolute;
   background-color: black;
-  width: 200px;
+  width: 65%;
   height: 10px;
   top: 195px;
   right: 0px;
@@ -282,6 +282,11 @@ body {
 .reseaux img {
   width: 20%;
   margin: 5px;
+}
+.reseaux p{
+  font-size: 1.1rem ;
+  font-weight: bold;
+  padding-top: 1rem;
 }
 .courtisane {
   position: relative;
