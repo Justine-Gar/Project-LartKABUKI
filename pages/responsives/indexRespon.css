@@ -1,20 +1,10 @@
-@media screen and (max-width: 319px) {
-
-  .rectangleC1 {
-    top: 285px;
-  }
-  .rectangleC2 {
-    top: 295px;
-  }
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 375px) {
   .divCarousel {
     z-index: -5;
     height: 100%;
     padding: 0;
     .carousel-inner{
-      height: 295px;
+      height: 235px;
       .carousel-item{
         height: 100%;
       }
@@ -25,24 +15,151 @@
   }
   
   .rectangleC1 {
-    top: 285px;
+    top: 225px;
   }
   .rectangleC2 {
-    top: 295px;
+    top: 235px;
   }
 
 }
 
-@media screen and (max-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 425px) {
+  .divCarousel {
+    z-index: -5;
+    height: 100%;
+    padding: 0;
+    .carousel-inner{
+      height: 265px;
+      .carousel-item{
+        height: 100%;
+      }
+    }
+    .carousel-item {
+      height: 100%;
+    }
+  }
   
-  .carousel-inner {
-    height: 480px;
+  .rectangleC1 {
+    top: 255px;
+  }
+  .rectangleC2 {
+    top: 265px;
+  }
+ 
+  
+}
+
+@media screen and (min-width: 768px) {
+  .divCarousel {
+    z-index: -5;
+    height: 100%;
+    padding: 0;
+    .carousel-inner{
+      height: 485px;
+      .carousel-item{
+        height: 100%;
+      }
+    }
+    .carousel-item {
+      height: 100%;
+    }
   }
   .rectangleC1 {
-    top: 285px;
+    top: 475px;
   }
   .rectangleC2 {
-    top: 295px;
+    top: 485px;
   }
-  
 }
+
+@media screen and (min-width: 1024px) {
+  .divCarousel {
+    z-index: -5;
+    height: 100%;
+    padding: 0;
+    .carousel-inner{
+      height: 630px;
+      .carousel-item{
+        height: 100%;
+      }
+    }
+    .carousel-item {
+      height: 100%;
+    }
+  }
+  .rectangleC1 {
+    top: 620px;
+  }
+  .rectangleC2 {
+    top: 630px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .divCarousel {
+    z-index: -5;
+    height: 100%;
+    padding: 0;
+    .carousel-inner{
+      height: 740px;
+      .carousel-item{
+        height: 100%;
+      }
+    }
+    .carousel-item {
+      height: 100%;
+    }
+  }
+  .rectangleC1 {
+    top: 730px;
+  }
+  .rectangleC2 {
+    top: 740px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .divCarousel {
+    z-index: -5;
+    height: 100%;
+    padding: 0;
+    .carousel-inner{
+      height: 740px;
+      .carousel-item{
+        height: 100%;
+      }
+    }
+    .carousel-item {
+      height: 100%;
+    }
+  }
+  .rectangleC1 {
+    top: 730px;
+  }
+  .rectangleC2 {
+    top: 740px;
+  }
+}
+
+/*@media screen and (max-width: 2050px) {
+  .divCarousel {
+    z-index: -5;
+    height: 100%;
+    padding: 0;
+    .carousel-inner{
+      height: 1025px;
+      .carousel-item{
+        height: 100%;
+      }
+    }
+    .carousel-item {
+      height: 100%;
+    }
+  }
+  .rectangleC1 {
+    top: 1015px;
+  }
+  .rectangleC2 {
+    top: 1025px;
+  }
+}
+  
