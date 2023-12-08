@@ -56,6 +56,7 @@
 <!--End header-->
 <!--Star main-->
       <main>
+        
         <!--Slogan-->
         <section class="cover">
           <div class="divCarousel">
@@ -137,10 +138,7 @@
             <div class="col-sm-12 col-lg-6">
               <div class="scene1 row">
                 <div class="theatre1">
-                  <img src="/assets/images/AdobeStock_307136691_Editorial_Use_Only.jpeg" alt="">
-                  <div class="cercle1"><p>1</p></div>
-                  <div class="cercle2"><p>2</p></div>
-                  <div class="cercle3"><p>3</p></div>
+                  <img src="/assets/images/AdobeStock_307136691_Editorial_Use_Only.svg" alt="">
                 </div>
               </div>
             </div>
@@ -190,23 +188,21 @@
               <div class="col-sm-12 col-lg-6">
                 <div class="scene2 row ">
                   <div class="theatre2">
-                    <img src="/assets/images/AdobeStock_345313216_Editorial_Use_Only.jpeg" alt="">
-                    <div class="cercle4"><p>4</p></div>
-                    <div class="cercle5"><p>5</p></div>
-                    <div class="cercle6"><p>6</p></div>
-                    <div class="cercle7"><p>7</p></div>
+                    <img src="/assets/images/AdobeStock_345313216_Editorial_Use_Only.svg" alt="">
                   </div>
                 </div>
               </div>
               <div class="col-sm-12 col-lg-6">
                 <div class="row">
                   <div class="col-sm-6">
-                    <div class="col-2">
-                      <div class="cercle"><p>4</p></div>
+                    <div class="row">
+                      <div class="col-2">
+                        <div class="cercle"><p>4</p></div>
+                      </div>
+                      <h4 class="col-10">kuromisu</h4>
+                      <p class="scene-text"><em>Kuromisu</em> est un petit espace du coté shimote qui était utilisé
+                        pour les musiciens, le chants, le taiko(tambour au bâton) et autres effets sonores.</p>
                     </div>
-                    <h4 class="col-10">kuromisu</h4>
-                    <p class="scene-text"><em>Kuromisu</em> est un petit espace du coté shimote qui était utilisé
-                      pour les musiciens, le chants, le taiko(tambour au bâton) et autres effets sonores.</p>
                   </div>
                   <div class="col-sm-6">
                     <div class="row">
@@ -250,53 +246,60 @@
           
         </section>
 
+        <section class="container">
+          <div class="row">
+            <div id="contact" class=" d-flex flex-row-reverse">
+              <div class="col-sm-12 col-lg-6">
+                <form method="post" action="" class="sendingForm px-3">
+                  <fieldset>
+                    <legend><h3>contact</h3></legend>
+                    <div class="fillForm">
+                      <label for="inputPrenom"></label>
+                      <input type="text" class="form-control bg-light" id="inputPrenom" placeholder="Prenom" required>
+        
+                      <label for="inputNom"></label>
+                      <input type="text" class="form-control bg-light" id="inputNom" placeholder="Nom" required>
+        
+                      <label for="inputEmail"></label>
+                      <input type="email" class="form-control bg-light" id="inputEmail" placeholder="Email" required>
+        
+                      <label for="inputSujet"></label>
+                      <input type="text" class="form-control bg-light" id="inputSujet" placeholder="Sujet" required>
+                    </div>
+                    <div class="fillText">
+                      <textarea name="texte" class="form-control bg-light mt-4" id="texte" placeholder="Votre message..." cols="30" rows="10"></textarea>
+                    </div>
+                  </fieldset>
+                  <input type="button" value="Envoyer" class="btn btn-danger ps-3 pe-3 m-4">
+                </form>
+              </div>
+              
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <img class="logoF" src="/assets/Logo.svg" alt="logo association">
+                <div class="reseaux">
+                  <p>Suivez-nous :</p>
+                  <img src="/assets/svg/facebook.svg" alt="logo facebook">
+                  <img src="/assets/svg/instagram.svg" alt="logo instagram">
+                  <img src="/assets/svg/twitter.svg" alt="logo twitter">
+                </div>
+                <div class="courtisane">
+                  <img src="/assets/svg/courtisane.svg" alt="deux femme au costumes">
+                </div>
+                <div class="barriere">
+                <img src="/assets/svg/barriere.svg" alt="barriere rouge">
+                </div>
+              </div>
+          </div>
+
+        </section>
       </main>
 <!--End main-->
 
 <!--Start footer-->
       <footer class="container-fluid">
-        <div id="contact" class="row d-flex flex-row-reverse">
-          <div class="col-sm-12 col-lg-6">
-            <form method="post" action="" class="sendingForm px-3">
-              <fieldset>
-                <legend><h3>contact</h3></legend>
-                <div class="fillForm">
-                  <label for="inputPrenom"></label>
-                  <input type="text" class="form-control bg-light" id="inputPrenom" placeholder="Prenom" required>
-    
-                  <label for="inputNom"></label>
-                  <input type="text" class="form-control bg-light" id="inputNom" placeholder="Nom" required>
-    
-                  <label for="inputEmail"></label>
-                  <input type="email" class="form-control bg-light" id="inputEmail" placeholder="Email" required>
-    
-                  <label for="inputSujet"></label>
-                  <input type="text" class="form-control bg-light" id="inputSujet" placeholder="Sujet" required>
-                </div>
-                <div class="fillText">
-                  <textarea name="texte" class="form-control bg-light mt-4" id="texte" placeholder="Votre message..." cols="30" rows="10"></textarea>
-                </div>
-              </fieldset>
-              <input type="button" value="Envoyer" class="btn btn-danger ps-3 pe-3 m-4">
-            </form>
-          </div>
-          <div class="col-sm-12 col-lg-6">
-            <img class="logoF" src="/assets/Logo.svg" alt="logo association">
-            <div class="reseaux">
-              <p>Suivez-nous :</p>
-              <img src="/assets/svg/facebook.svg" alt="logo facebook">
-              <img src="/assets/svg/instagram.svg" alt="logo instagram">
-              <img src="/assets/svg/twitter.svg" alt="logo twitter">
-            </div>
-            <div class="courtisane">
-              <img src="/assets/svg/courtisane.svg" alt="deux femme au costumes">
-            </div>
-          </div>
-        </div>
         <div class="footerF row">
-          <div class="barriere">
-            <img src="/assets/svg/barriere.svg" alt="barriere rouge">
-          </div>
+          
           <div class="rectangleF">
             <img src="/assets/svg/copyright-regular.svg" alt="logo copyrigth">
             <p> 2023 - L'ART KABUKI - Tous droits réservés - <a href="/pages/html/mention.html">Mentions Légales</a></p>
