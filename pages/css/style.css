@@ -31,7 +31,7 @@ body {
 
 /* LOGO */
 .logo {
-  width: 40%;
+  width: 10em;
   padding: 15px;
 }
 .bg-light {
@@ -92,7 +92,7 @@ body {
 /*--------------START COVER-------------*/
 .cover {
   position: relative;
-  top: 85px;
+  top: 105px;
   width: 100%;
   display: flex;
   flex-direction: column;

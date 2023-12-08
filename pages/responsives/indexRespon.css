@@ -1,5 +1,48 @@
-@media screen and (min-width: 769px) {
-  .logo {
-    width: 10%;
+@media screen and (max-width: 319px) {
+
+  .rectangleC1 {
+    top: 285px;
   }
+  .rectangleC2 {
+    top: 295px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .divCarousel {
+    z-index: -5;
+    height: 100%;
+    padding: 0;
+    .carousel-inner{
+      height: 295px;
+      .carousel-item{
+        height: 100%;
+      }
+    }
+    .carousel-item {
+      height: 100%;
+    }
+  }
+  
+  .rectangleC1 {
+    top: 285px;
+  }
+  .rectangleC2 {
+    top: 295px;
+  }
+
+}
+
+@media screen and (max-width: 481px) and (max-width: 768px) {
+  
+  .carousel-inner {
+    height: 480px;
+  }
+  .rectangleC1 {
+    top: 285px;
+  }
+  .rectangleC2 {
+    top: 295px;
+  }
+  
 }
