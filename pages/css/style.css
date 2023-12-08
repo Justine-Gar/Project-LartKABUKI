@@ -329,7 +329,6 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 25px;
-
   /*scroll-margin-top: 115px;*/
 }
 #contact h3 {
@@ -339,17 +338,36 @@ body {
   font-weight: bold;
   text-align: center;
 }
-.logoF {
-  width: 15%;
+
+.sendingForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.logoF {
+  position: absolute;
+  width: 40%;
+  right: 0;
+  bottom: 130px;
+  margin: 5%;
+}
+.reseaux {
+  position: absolute;
+  width: 40%;
+  right: 0;
+  bottom: 35px;
+  margin: 5%;
+}
+.reseaux img {
+  width: 20%;
+  margin: 5px;
+}
 .courtisane {
   position: relative;
-  z-index: 2;
-  top: 2px;
 }
 .courtisane img{
-  width:50%;
+  width: 55%;
   transform: scaleX(-1);
 }
 
@@ -358,22 +376,23 @@ body {
 /*-------------Start footer--------------*/
 .footerF  {
   position: relative;
-}
-.rectangleF {
   background-color: red;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.rectangleF img {
+.footerF img {
   width: 15px;
+  margin: 5px;
 }
-.rectangleF p {
-  position: relative;
+.footerF p {
   color: white;
   font-size: 0.55rem;
   margin-bottom: 0;
 }
-.rectangleF a {
-  position: relative;
+.footerF a {
+
   color: white;
   font-size: 0.55rem;
   margin-bottom: 0;
