@@ -98,11 +98,12 @@ body {
   flex-direction: column;
 }
 .divCarousel {
+  position: relative;
   z-index: -5;
   height: 100%;
   padding: 0;
   .carousel-inner{
-    height: 195px;
+    height: 100%;
     .carousel-item{
       height: 100%;
     }
@@ -111,21 +112,41 @@ body {
   height: 100%;
   }
 }
+.rectangleC1,
+.rectangleC2 {
+  position: absolute;
+  bottom: 0;
+  width: 65%; 
+  height: 10px;
+
+}
 .rectangleC1 {
+  background-color: red;
+  left:0;
+}
+.rectangleC2 {
+  background-color: black;
+  right: 0;
+  bottom: -10px;
+}
+
+/*.rectangleC1 {
   position: absolute;
   background-color: red;
   width: 65%;
   height: 10px;
-  top: 185px;
+  top: 203px;
 }
 .rectangleC2 {
   position: absolute;
   background-color: black;
   width: 65%;
   height: 10px;
-  top: 195px;
+  top: 213px;
   right: 0px;
-}
+}*/
+
+
 .slogan-text {
   position: relative;
   bottom: 55px;
@@ -162,6 +183,7 @@ body {
 #kabuquoi {
   position: relative;
   width: 100%;
+  top: 35px;
   display: flex;
   flex-direction: column;
   margin-top: 70px;
@@ -180,6 +202,7 @@ body {
   padding-top: 1rem;
 }
 .kabuki-text img {
+  width: 100%;
   transform: scaleX(-1);
 }
 
@@ -188,6 +211,7 @@ body {
 #scenetradi {
   position: relative;
   width: 100%;
+  top: 30px;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -202,7 +226,6 @@ body {
   font-weight: bold;
   text-align: center;
 }
-
 .scene1 img {
   width: 100%;
   margin-top: 10x;
@@ -210,7 +233,6 @@ body {
 .scene2 img {
   width: 100%;
 }
-
 /*barre rouge*/
 .separation {
   display: flex;
@@ -223,7 +245,6 @@ body {
   height: 5px;
   margin: 20px;
 }
-
 
 /*texte*/
 .cercle {
@@ -247,6 +268,7 @@ body {
 /*--------------START contact-------------*/
 #contact {
   position: relative;
+  top: 35px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -303,6 +325,7 @@ body {
   position: relative;
   background-color: red;
   height: 50px;
+  top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;

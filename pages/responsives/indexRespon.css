@@ -1,165 +1,33 @@
 @media screen and (min-width: 375px) {
-  .divCarousel {
-    z-index: -5;
-    height: 100%;
-    padding: 0;
-    .carousel-inner{
-      height: 235px;
-      .carousel-item{
-        height: 100%;
-      }
-    }
-    .carousel-item {
-      height: 100%;
-    }
-  }
   
-  .rectangleC1 {
-    top: 225px;
+  .logoF {
+    bottom: 155px;
   }
-  .rectangleC2 {
-    top: 235px;
-  }
-
-}
-
-@media screen and (min-width: 425px) {
-  .divCarousel {
-    z-index: -5;
-    height: 100%;
-    padding: 0;
-    .carousel-inner{
-      height: 265px;
-      .carousel-item{
-        height: 100%;
-      }
-    }
-    .carousel-item {
-      height: 100%;
-    }
-  }
-  
-  .rectangleC1 {
-    top: 255px;
-  }
-  .rectangleC2 {
-    top: 265px;
-  }
- 
   
 }
+
 
 @media screen and (min-width: 768px) {
-  .divCarousel {
-    z-index: -5;
-    height: 100%;
-    padding: 0;
-    .carousel-inner{
-      height: 485px;
-      .carousel-item{
-        height: 100%;
-      }
-    }
-    .carousel-item {
-      height: 100%;
-    }
+  .kabuki-text img {
+    width: 50%;
   }
-  .rectangleC1 {
-    top: 475px;
-  }
-  .rectangleC2 {
-    top: 485px;
-  }
-}
 
-@media screen and (min-width: 1024px) {
-  .divCarousel {
-    z-index: -5;
-    height: 100%;
-    padding: 0;
-    .carousel-inner{
-      height: 630px;
-      .carousel-item{
-        height: 100%;
-      }
-    }
-    .carousel-item {
-      height: 100%;
-    }
+  .logoF {
+    position: relative;
+    width: 50%;
+    bottom: 0;
+    margin: 5%;
   }
-  .rectangleC1 {
-    top: 620px;
+  .reseaux {
+    position: relative;
   }
-  .rectangleC2 {
-    top: 630px;
+  .courtisane img{
+    width: 70%;
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .divCarousel {
-    z-index: -5;
-    height: 100%;
-    padding: 0;
-    .carousel-inner{
-      height: 740px;
-      .carousel-item{
-        height: 100%;
-      }
-    }
-    .carousel-item {
-      height: 100%;
-    }
-  }
-  .rectangleC1 {
-    top: 730px;
-  }
-  .rectangleC2 {
-    top: 740px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .divCarousel {
-    z-index: -5;
-    height: 100%;
-    padding: 0;
-    .carousel-inner{
-      height: 740px;
-      .carousel-item{
-        height: 100%;
-      }
-    }
-    .carousel-item {
-      height: 100%;
-    }
-  }
-  .rectangleC1 {
-    top: 730px;
-  }
-  .rectangleC2 {
-    top: 740px;
-  }
-}
+  .footerF  {
 
-/*@media screen and (max-width: 2050px) {
-  .divCarousel {
-    z-index: -5;
-    height: 100%;
-    padding: 0;
-    .carousel-inner{
-      height: 1025px;
-      .carousel-item{
-        height: 100%;
-      }
-    }
-    .carousel-item {
-      height: 100%;
-    }
-  }
-  .rectangleC1 {
-    top: 1015px;
-  }
-  .rectangleC2 {
-    top: 1025px;
+    height: 50px;
+    top: 25px;
   }
 }
-  
