@@ -1,49 +1,49 @@
 @media screen and (min-width: 375px) {
   
   .logoF {
-    bottom: 155px;
+    width: 45%;
   }
-  
+  .reseaux {
+    bottom: -205px;
+  }
 }
-
 
 @media screen and (min-width: 768px) {
   .dessin1 {
     width: 50px;
   }
 
-  .logoF {
-    position: relative;
-    width: 50%;
-    bottom: 0;
-    margin: 5%;
-  }
-  .reseaux {
-    position: relative;
-  }
   .courtisane img{
-    width: 70%;
+    width: 75%;
   }
-
   .footerF  {
-
     height: 50px;
-    top: 25px;
+    top: 36px;
   }
 }
 
-@media screen and (min-width: 993px) {
-
-
-
-
+@media screen and (max-width: 1024px) {
 
   .dessin {
     width: 45%;
   }
+
   .kabuki-text p {
     font-size: 1.4rem ;
     padding-top: 30px;
   }
+}
 
+@media screen and (min-width: 1440px) {
+  
+  .courtisane img{
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1980px) {
+  
+  .courtisane img{
+    width: 60%;
+  }
 }
