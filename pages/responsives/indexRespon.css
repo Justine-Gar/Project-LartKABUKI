@@ -8,8 +8,8 @@
 
 
 @media screen and (min-width: 768px) {
-  .kabuki-text img {
-    width: 50%;
+  .dessin1 {
+    width: 50px;
   }
 
   .logoF {
@@ -30,4 +30,20 @@
     height: 50px;
     top: 25px;
   }
+}
+
+@media screen and (min-width: 993px) {
+
+
+
+
+
+  .dessin {
+    width: 45%;
+  }
+  .kabuki-text p {
+    font-size: 1.4rem ;
+    padding-top: 30px;
+  }
+
 }

@@ -129,24 +129,9 @@ body {
   right: 0;
   bottom: -10px;
 }
-
-/*.rectangleC1 {
-  position: absolute;
-  background-color: red;
-  width: 65%;
-  height: 10px;
-  top: 203px;
+.carousel-control-prev, .carousel-control-next {
+  cursor: pointer;
 }
-.rectangleC2 {
-  position: absolute;
-  background-color: black;
-  width: 65%;
-  height: 10px;
-  top: 213px;
-  right: 0px;
-}*/
-
-
 .slogan-text {
   position: relative;
   bottom: 55px;
@@ -201,7 +186,7 @@ body {
   font-weight: lighter;
   padding-top: 1rem;
 }
-.kabuki-text img {
+.clearfix {
   width: 100%;
   transform: scaleX(-1);
 }
@@ -217,7 +202,7 @@ body {
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 12px;
-  scroll-margin-top: 80px;
+  scroll-margin-top: 100px;
 }
 #scenetradi h3 {
   text-transform: uppercase;
@@ -273,7 +258,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 25px;
-  scroll-margin-top: 80px;
+  scroll-margin-top: 110px;
 }
 #contact h3 {
   text-transform: uppercase;
