@@ -277,7 +277,9 @@ body {
 }
 
 .courtisane img{
-  width: 100%;
+  position: relative;
+  bottom: 15px;
+  width: 15em;
   transform: scaleX(-1);
 }
 
@@ -287,7 +289,7 @@ body {
 .footerF  {
   position: relative;
   background-color: red;
-  top: 90px;
+  top: 85px;
   height: 50px;
   display: flex;
   justify-content: center;
