@@ -1,5 +1,7 @@
 @media screen and (min-width: 375px) {
-  
+  #scenetradi {
+    top: 90px;
+  }
   .logoF {
     width: 45%;
   }
@@ -9,6 +11,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  #scenetradi {
+    top: 90px;
+  }
   .dessin1 {
     width: 50px;
   }
@@ -18,24 +23,34 @@
   }
   .footerF  {
     height: 50px;
-    top: 36px;
+    top: 90px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1023px) {
 
   .dessin {
     width: 45%;
   }
 
   .kabuki-text p {
-    font-size: 1.4rem ;
+    font-size: 1.5rem ;
     padding-top: 30px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+ 
+  .dessin {
+    width: 45%;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  
+  #scenetradi {
+    top: 88px;
+  }
   .courtisane img{
     width: 60%;
   }
